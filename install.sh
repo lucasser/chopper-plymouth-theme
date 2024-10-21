@@ -1,0 +1,1 @@
+sudo make install && sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/chopper/chopper.plymouth 100 && sudo update-alternatives --set default.plymouth /usr/share/plymouth/themes/chopper/chopper.plymouth && sudo update-initramfs -u
