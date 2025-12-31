@@ -1,5 +1,7 @@
 To install add the text logo to chopper folder, and call
-  make logoname
+
+  sudo make install LOGO=logoname
+
 without the .png
 
 then run install.sh
