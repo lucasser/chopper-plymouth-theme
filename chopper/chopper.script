@@ -40,7 +40,7 @@ logo_sprite.SetPosition(logo_x, logo_y, 10);
 logo_sprite.SetOpacity(0);
 
 
-text_filename = "chopper_text.png";
+text_filename = "LOGO.png";
 text_image = Image(text_filename);
 
 scaled_text = text_image.Scale(Window.GetWidth()/3, text_image.GetHeight()*(Window.GetWidth()/3)/text_image.GetWidth());
