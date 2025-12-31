@@ -6,7 +6,7 @@ LOGO?=chopper_text
 install:
 	mkdir -p $(DESTDIR)/plymouth/themes
 	cp -r chopper $(DESTDIR)/plymouth/themes
-	sed -i 's|LOGO|$(LOGO)|'$(DESTDIR)/plymouth/themes/chopper/chopper.script
+	sed -i 's|LOGO|$(LOGO)|g'$(DESTDIR)/plymouth/themes/chopper/chopper.script
 	sed -i 's|DESTDIR|$(DESTDIR)|g' $(DESTDIR)/plymouth/themes/chopper/chopper.plymouth
 
 uninstall:
