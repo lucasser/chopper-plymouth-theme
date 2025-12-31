@@ -15,7 +15,7 @@ force_drivers+=" amdgpu "
 add_dracutmodules+=" plymouth "
 ```
 
-add quiet splash to /etc/kernel/cmdline
+add `quiet splash` to /etc/kernel/cmdline
 
 ```bash
 $ sudo plymouth-set-default-theme chopper
